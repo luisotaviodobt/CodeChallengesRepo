@@ -1,0 +1,26 @@
+package javachallenges.easy;
+
+import java.util.Scanner;
+
+public class InputOutputChallenge {
+	
+		public static void main (String [] args) {
+			
+				Scanner scanner = new Scanner (System.in);
+						
+				System.out.println("Por favor digite o primeiro numero");
+				int number1 = scanner.nextInt();
+				
+				System.out.println("Por favor digite o segundo numero");
+				int numero2 = scanner.nextInt();
+				
+				System.out.println("Por favor digite o terceiro numero");
+				int numero3 = scanner.nextInt();
+				
+				System.out.println(number1);
+				System.out.println(numero2);
+				System.out.println(numero3);
+			}
+						
+		}
+
